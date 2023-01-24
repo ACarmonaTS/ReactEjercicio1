@@ -1,10 +1,16 @@
+import pok1 from "./one.png"
+import pok2 from "./two.png"
+import pok3 from "./three.png"
+import pok4 from "./four.png"
+import pok5 from "./five.png"
+
 export const blockOneImage = [
-    { scr: "./components/resources/1.png", alt: "bulbasaur" },
-    { scr: "./components/resources/2.png", alt: "charmander" },
-    { scr: "./components/resources/3.png", alt: "squirtle" }
+    { scr: pok1, alt: "bulbasaur" },
+    { scr: pok2, alt: "charmander" },
+    { scr: pok3, alt: "squirtle" }
   ];
   
-export const blockTwoImage = [
-    { scr: "./resources/4.png", alt: "pikachu" },
-    { scr: "./resources/5.png", alt: "psyduck" }
-  ];
+export const blockTwoImage =  [
+    { scr: pok4, alt: "pikachu" },
+    { scr: pok5, alt: "psyduck" }
+  ]
